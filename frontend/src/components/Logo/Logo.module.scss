@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  position: absolute;
+  top: 22px;
+  left: 30px;
+  // justify-self: left;
+  width: 140px;
+  height: 40px;
+  &:hover {
+    cursor: pointer;
+  }
+}

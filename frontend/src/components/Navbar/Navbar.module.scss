@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.navbar {
+  // margin: 10px;
+  height: 88px;
+  width: 100%;
+  display: flex;
+  // justify-content: right;
+  color: blue;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  top: 22px;
+  left: 30px;
+  // justify-self: left;
+  width: 120px;
+  height: 29px;
+}
+
+.rightNavItem {
+  width: 100px;
+  height: 44px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #1e272e;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.rightNavBtn {
+  background-color: #142683;
+  width: 133px;
+  height: 44px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.rightNav {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  grid-gap: 50px;
+
+  margin-right: 2%;
+  margin-left: auto;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 250px;
+}
